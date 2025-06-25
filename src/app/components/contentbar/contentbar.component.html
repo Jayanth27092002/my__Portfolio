@@ -1,0 +1,13 @@
+
+
+
+<div class="mainSection">
+  <div class="sectionName">{{ sectionName }}</div>
+  <div class="contentholder">
+    <ng-container *ngFor="let item of data">
+      <ng-container
+        *ngComponentOutlet="cardComponent; injector: createInjector(item)"
+      ></ng-container>
+    </ng-container>
+  </div>
+</div>

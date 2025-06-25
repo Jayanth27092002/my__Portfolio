@@ -1,0 +1,8 @@
+<div class="card">
+  <span class="badge" *ngIf="isNew">Recently Learned</span>
+  <img [src]="imageUrl" alt="{{ title }}" />
+  <div class="overlay">
+    <button class="play-button">▶</button>
+  </div>
+  <h4>{{ title }}</h4>
+</div>

@@ -1,0 +1,124 @@
+
+
+/////////////////This is basic csss code 
+
+.navbar{
+    display: flex;
+   
+    align-items: center;
+    background-color: rgba(20, 20, 20, 0.5);
+    color: white;
+    padding:0.25rem 0.75rem;
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 10;
+
+    backdrop-filter: blur(8px); // blurred background effect
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+
+    
+.nav-Buttons{
+  margin-left: 5rem;
+}
+
+
+
+
+.Logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e50914;
+    letter-spacing: 1.5px;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 12rem;
+  margin-top: 0;
+  margin-bottom:0;
+  margin-right: 15%;
+
+  li a {
+    margin-right: 20px;
+    
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #e50914;
+    }
+  }
+}
+
+
+}
+
+
+.hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+}
+
+
+
+
+
+
+
+
+////sCss for   PrimeNgStyle components
+/// 
+// .navBar-portfolio {
+//   background-color: #141414 !important;
+//   border: none;
+//   padding: 0.5rem 2rem;
+//   position: fixed;
+//   width: 100%;
+//   top: 0;
+//   z-index: 1000;
+
+//   .p-menubar-root-list {
+//     gap: 2rem;
+//   }
+
+//   .p-menuitem-link {
+//     color: white;
+//     font-weight: 500;
+//     font-size: 1rem;
+//     transition: color 0.3s ease;
+
+//     &:hover {
+//       color: #e50914;
+//       background: transparent;
+//     }
+//   }
+
+//   .logo {
+//     font-size: 1.5rem;
+//     font-weight: bold;
+//     color: #e50914;
+//     letter-spacing: 2px;
+//   }
+
+//   .p-menubar {
+//     background: transparent;
+//     border:none;
+//   }
+
+//   .p-menubar-button {
+//     display: none;
+//   }
+// }
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+.hero{
+    position: relative;
+    width:100vw;
+    padding: 2rem 2rem;
+    height: 60vh;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+
+
+ 
+   
+
+
+
+}
+
+.hero-overlay {
+  position: relative;
+  z-index:2;
+  text-align: left;
+  color: white;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.hero-button {
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #b00610;
+  }
+}
+

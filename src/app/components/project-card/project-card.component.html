@@ -1,0 +1,25 @@
+<div class="netflix-card">
+  <!-- Top Badge -->
+  <span class="new-badge" *ngIf="isNew">Recently Designed</span>
+  
+  <!-- Image with Hover Overlay -->
+   <a  [href]="link" target="_blank" c>
+    <div class="card-image">
+    <img [src]="imageUrl" alt="{{ title }}" />
+ </div>
+</a>
+  
+  <!-- Card Content -->
+  <div class="card-details">
+    <div class="title-row">
+      <h3 class="project-title">{{ title }}</h3>
+      <span class="project-duration">{{ timeTaken }}</span>
+    </div>
+    
+    <p class="project-description">{{ description }}</p>
+    
+    <div class="tech-stack">
+      <span *ngFor="let tech of stack" class="tech-tag">{{ tech }}</span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,46 @@
+
+
+<style>
+  
+</style>
+
+<main class="main" >
+<div class="startingUi">
+
+    <app-navbar/>
+    <app-mainimage/>
+
+</div>
+
+
+<div class="mainContent">
+
+
+<app-contentbar
+  [sectionName]="'Skills'"
+  [data]="skillsData"
+  [cardComponent]="skillCardComponent"
+/>
+
+<app-contentbar
+  [sectionName]="'Projects'"
+  [data]="projectsData"
+  [cardComponent]="projectCardComponent"
+/>
+
+
+</div>
+
+
+
+
+
+
+
+  
+</main>
+
+
+
+
+<router-outlet />
