@@ -18,6 +18,12 @@ export const SkillsData:SkillCard[]=[
         isNew:true
     },
 
+    {
+        title:'Git',
+        imageUrl:"https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+        isNew:true,
+    },
+
      {
         title:'SpringBoot',
         imageUrl:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg',
@@ -69,4 +75,7 @@ export const SkillsData:SkillCard[]=[
         imageUrl:'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg',
         isNew:false
     }
+
+
+    
 ]
