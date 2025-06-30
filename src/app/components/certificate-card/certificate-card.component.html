@@ -1,0 +1,22 @@
+<div class="certificate-card">
+  <span class="new-badge" *ngIf="isNew">Recently Completed</span>
+
+  <div class="card-image">
+    <img [src]="imageUrl" alt="{{ name }}" />
+
+    <div class="image-overlay">
+      <button class="link-button">🔗</button>
+    </div>
+  </div>
+
+  <div class="card-description">
+    <div class="title-row">
+      <div class="certificate-name">{{ name }}</div>
+      <div class="certificate-date">{{ date }}</div>
+    </div>
+
+    <div class="certificate-description">
+      {{ description }}
+    </div>
+  </div>
+</div>

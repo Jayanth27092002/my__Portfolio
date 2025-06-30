@@ -8,12 +8,15 @@ import { ProjectCardComponent } from './components/project-card/project-card.com
 import { SkillsData } from './data/Skills';
 import { ProjectsData } from './data/Projects';
 
+import { CertificatesData } from './data/Certifications';
+
 import { MainimageComponent } from './components/mainimage/mainimage.component';
 import { ContentbarComponent } from './components/contentbar/contentbar.component';
+import { CertificateCardComponent } from './components/certificate-card/certificate-card.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,NavbarComponent,MainimageComponent,ContentbarComponent,SkillCardComponent,ProjectCardComponent],
+  imports: [RouterOutlet,NavbarComponent,MainimageComponent,ContentbarComponent,SkillCardComponent,ProjectCardComponent,CertificateCardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
@@ -21,8 +24,10 @@ export class AppComponent {
 
   skillsData=SkillsData;
   projectsData=ProjectsData;
+  certificatesData=CertificatesData;
 
   projectCardComponent=ProjectCardComponent;
+  certificateCardComponent=CertificateCardComponent
 
   skillCardComponent = SkillCardComponent;
   title = 'netflix-portfolio';
