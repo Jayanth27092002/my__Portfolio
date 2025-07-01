@@ -16,17 +16,34 @@
 <div class="mainContent">
 
 
-<app-contentbar
+  <div id="skills">
+
+    <app-contentbar
   [sectionName]="'Skills'"
   [data]="skillsData"
   [cardComponent]="skillCardComponent"
+  
 />
+
+  </div>
+
+  <div id="projects">
+    
 
 <app-contentbar
   [sectionName]="'Projects'"
   [data]="projectsData"
   [cardComponent]="projectCardComponent"
+  
 />
+
+
+  </div>
+  
+
+
+
+<div id="certifications">
 
 
 
@@ -34,7 +51,11 @@
   [sectionName]="'Certificates'"
   [data]="certificatesData"
   [cardComponent]="certificateCardComponent"
+  
 />
+
+</div>
+
 
 
 

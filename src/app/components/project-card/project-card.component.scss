@@ -7,10 +7,11 @@
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   cursor: pointer;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  z-index: 0;
 
   &:hover {
     transform: scale(1.05);
-    z-index: 10;
+    z-index: 0;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 
     .image-overlay {
@@ -28,7 +29,7 @@
     font-size: 0.65rem;
     font-weight: bold;
     border-radius: 3px;
-    z-index: 2;
+    z-index: 0;
     text-transform: uppercase;
   }
 
@@ -57,6 +58,7 @@
       align-items: center;
       opacity: 0;
       transition: opacity 0.3s ease;
+      z-index: 0;
 
       .link-button {
         background: rgba(255, 255, 255, 0.2);

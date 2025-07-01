@@ -14,6 +14,19 @@ import { MenuItem } from 'primeng/api';
 })
 export class NavbarComponent {
 
+
+  scrollIntoSection(id:string){
+    const target=document.getElementById(id);
+    if(target){
+      setTimeout(()=>{
+        target.scrollIntoView({
+          behavior:'smooth',
+          block:'start'
+        })
+      },100)
+    }
+  }
+
   
   }
 
